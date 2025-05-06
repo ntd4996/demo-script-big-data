@@ -1,0 +1,56 @@
+# Dữ liệu tạm thời
+pandemic_data.csv
+pandemic_data_*.csv
+!pandemic_data_minimal.csv
+
+# Thư mục mô phỏng HDFS
+hdfs_simulation/
+
+# Cơ sở dữ liệu Hive
+*.db
+hive_simulation.db
+
+# File báo cáo tạm thời
+big_data_covid_report.md
+report.html
+
+# Thư mục hình ảnh/biểu đồ
+visualizations/
+
+# File nén nộp bài
+*.zip
+pandemic_analysis_submission.zip
+pandemic_analysis_submission/
+
+# Môi trường Python
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs và file tạm thời
+*.log
+*.tmp
+.DS_Store
+
+# IDE và trình soạn thảo
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cache và file tạm thời từ matplotlib
+.ipynb_checkpoints/
+.matplotlib/
+.pytest_cache/
+
+# File kết xuất
+*.png
+*.jpg
+*.svg
+*.pdf
+
+# File cấu hình người dùng cục bộ (nếu có)
+.env
+config.local.py 
